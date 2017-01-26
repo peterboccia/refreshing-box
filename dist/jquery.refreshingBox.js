@@ -1,7 +1,6 @@
 /**
  * refreshingBox.js
- * @author: Bob Knothe
- * @author: Sokolov Yura
+ * @author: Peter Boccia
  * @version: 1.0.00 - 2017-01-23 GMT 14:00 PM
  *
  * Created by Pietro Boccia on 2017-01-20
