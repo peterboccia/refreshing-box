@@ -1,0 +1,89 @@
+/* These file set the default theme for refreshing box component.
+ * It was tested to fit inside bootstrap.
+ * It can be customized to fit the theme.
+ * Peter Boccia https://github.com/peterboccia
+ */
+.refreshing-box {
+    margin-top: .4em;
+    margin-bottom: .2em;
+}
+/* The switch - the box around the slider */
+.refreshing-box .switch {
+  position: relative;
+  display: inline-block;
+  width: 38px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.refreshing-box .switch input {
+  display:none;
+}
+
+/* The slider */
+.refreshing-box .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.refreshing-box .slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.refreshing-box input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.refreshing-box input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.refreshing-box input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.refreshing-box .slider.round {
+  border-radius: 20px;
+}
+
+.refreshing-box .slider.round:before {
+  border-radius: 50%;
+}
+
+/* refreshing-box into table */
+table.refreshing-box {
+    width: 100%;
+    float: left;
+    display: inline-table;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+table.refreshing-box  .cell-description {
+    text-align: right;
+}
+
+table.refreshing-box .cell-switch {
+    width: 60px;
+	text-align: center;
+}
