@@ -11,6 +11,7 @@ For instance: we need to refresh a grid periodically and we won't to bring insid
 # Use
 Using the widget is simple.
 The first thing is to arrange a container div
+
 ```HTML
 <div class="container refreshing-box"></div>
 ```
@@ -24,8 +25,10 @@ $('.refreshing-box').refreshingBox({
   }
 });
 ```
+
 And we should have this result :thumbsup:
-![alt tag](https://raw.githubusercontent.com/peterboccia/refreshing-box/master/docs/refreshingBox_simple.png)
+
+Rendering of refreshingBox![alt tag](https://raw.githubusercontent.com/peterboccia/refreshing-box/master/docs/refreshingBox_simple.png)
 
 # Default Options
 There are some option that can personalize the behaviour:
