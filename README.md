@@ -20,6 +20,7 @@ Then we bind the widget:
 ```javascript
 $('.refreshing-box').refreshingBox({
   description: 'Update automatically',
+  delay: 3000,
   onRefresh: function() {
     console.log('refresh function!');
   }
@@ -28,7 +29,9 @@ $('.refreshing-box').refreshingBox({
 
 And we should have this result :thumbsup:  
 
-![Rendering of refreshingBox](https://raw.githubusercontent.com/peterboccia/refreshing-box/master/docs/refreshingBox_simple.png)
+![Rendering of refreshingBox](https://raw.githubusercontent.com/peterboccia/refreshing-box/master/docs/refreshingBox_simple.png)  
+
+And here a [simple demo](https://peterboccia.github.io/refreshing-box/demo.html).
 
 # Default Options
 There are some option that can personalize the behaviour:
