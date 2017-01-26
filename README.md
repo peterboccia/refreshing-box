@@ -25,7 +25,7 @@ $('.refreshing-box').refreshingBox({
 });
 ```
 And we should have this result :thumbsup:
-- link -
+![alt tag](https://raw.githubusercontent.com/peterboccia/refreshing-box/master/docs/refreshingBox_simple.png)
 
 # Default Options
 There are some option that can personalize the behaviour:
