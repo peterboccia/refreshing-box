@@ -17,11 +17,9 @@
 	<p>Simple use:</p>
 	<pre><code>
 	$('.refreshing-box').refreshingBox({
-	  description: 'Aggiorna automaticamente',
+	  description: 'Auto update',
 	  table: true,
-	  checkBoxId: '',
 	  interval: 1000,
-	  //checked: true,
 	  onRefresh: function() {
 		$('#console').append(new Date() + '&lt;br/&gt;');
 	  },
@@ -52,9 +50,7 @@ $(document).ready(function(){
 	$('.refreshing-box').refreshingBox({
 		description: 'Auto update',
 		table: true,
-		checkBoxId: '',
 		interval: 1000,
-		//checked: true,
 		onRefresh: function() {
 			$('#console').append(new Date() + '<br/>');
 		},
