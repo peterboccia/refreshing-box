@@ -31,7 +31,7 @@ And we should have this result :thumbsup:
 
 ![Rendering of refreshingBox](https://raw.githubusercontent.com/peterboccia/refreshing-box/master/docs/refreshingBox_simple.png)  
 
-And here a [simple demo](https://peterboccia.github.io/refreshing-box/demo.html).
+And here a [simple demo](https://peterboccia.github.io/refreshing-box/).
 
 # Default Options
 There are some option that can personalize the behaviour:
