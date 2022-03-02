@@ -50,20 +50,20 @@
 $(document).ready(function(){
 
 	$('.refreshing-box').refreshingBox({
-	description: 'Auto update',
-	table: true,
-	checkBoxId: '',
-	interval: 1000,
-	//checked: true,
-	onRefresh: function() {
-	$('#console').append(new Date() + '<br/>');
-	},
-	onStart: function() {
-	$('#console').append('started' + '<br/>');
-	},
-	onStop: function() {
-	$('#console').append('stopped' + '<br/>');
-	}
+		description: 'Auto update',
+		table: true,
+		checkBoxId: '',
+		interval: 1000,
+		//checked: true,
+		onRefresh: function() {
+			$('#console').append(new Date() + '<br/>');
+		},
+		onStart: function() {
+			$('#console').append('started' + '<br/>');
+		},
+		onStop: function() {
+			$('#console').append('stopped' + '<br/>');
+		}
 	});
 
 
